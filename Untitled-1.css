@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family:Segoe,"DejaVu Sans", "Trebuchet MS", Verdana, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif'
+}
+/*Masthead*/
+head.masthead{
+	background: url("bg-masthead.jpg'");
+	background-size: cover;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+	position: relative;
+}
+header.masthead h1{
+	font-size: 2.5rem;
+}
+header.masthead.overlay{
+	background-color: crimson;
+	height: 100%;
+	weight: 100%;
+	opacity: .3;
+	border: 0;
+	position: absolute;
+}
+/*Icons Grid*/
+.features-icons{
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+}
+.features-icons .fetures-icons-item .features-icons-icon{
+	height:7rem;
+}
+.features-icons .features-icons-item .features-icons-icon i{
+	font-size: 4.5rem;
+}
+.features-icons .features-icons-item:hover .features-icons-icon i{
+	font-size: 5rem;
+}
+/*Image Showcases*/
+.chowcase .showcase-text{
+	padding: 3rem;
+}
+.showcase .showcase-img{
+	min-height: 30rem;
+	background-size: cover;
+}
+/*Testimonials*/
+.testimonials{
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+}
+.testimonials .testimonial-item{
+	max-width:18rem;
+}
+.testimonials .testimonial-item img{
+	max-width: 12rem;
+	box-shadow: 0 5px 5px 0
+}
+/*Call to Action*/
+.call-to-action{
+	background: url("bg-masthead.jpg");
+	background-size: cover;
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+	position: relative;
+}
+.call-to-action .overlay{
+	background-color: crimson;
+	height: 100%;
+	weight: 100%;
+	opacity: .3;
+	border: 0;
+	position: absolute;
+}
+/*Footer*/
+footer.footer{
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
